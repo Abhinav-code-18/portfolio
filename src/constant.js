@@ -25,9 +25,9 @@ import mcLogo from './assets/tech_logo/mc.png';
 // import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // // Education Section Logo's
-// import glaLogo from './assets/education_logo/gla_logo.png';
-// import bsaLogo from './assets/education_logo/bsa_logo.png';
-// import vpsLogo from './assets/education_logo/vps_logo.png';
+import jdLogo from './assets/education_logo/jd_logo.png';
+import nejcLogo from './assets/education_logo/nejc_logo.png';
+import shsLogo from './assets/education_logo/shs_logo.png';
 
 // // Project Section Logo's
 // import githubdetLogo from './assets/work_logo/github_det.png';
@@ -140,39 +140,30 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      // img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      img: jdLogo,
+      school: "JDCOEM, Nagpur",
+      date: "Nov 2022 - Currently Pursuing",
+      grade: "9.1 CGPA",
+      desc: "I completed my Bachelor's degree in Computer Science and Engineering (CSE) from J D College of Engineering and Management, Nagpur. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at J D College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      degree: "Bachelor of Technology - B.Tech (Computer Science)",
     },
     {
       id: 1,
-      // img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      img: nejcLogo,
+      school: "New English Junior College, Nagpur",
+      date: "Aug 2020 - March 2022",
+      grade: "72%",
+      desc: "I completed my class 12 education from New English Junior College, Nagpur, under the State board, where I studied Physics, Chemistry, Mathematics and Biology (PCMB) in the Science Stream.",
+      degree: "XII - PCMB in Science Stream",
     },
     {
       id: 2,
-      // img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      // img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      img: shsLogo,
+      school: "Sangita High School, Nagpur",
+      date: "June 2019 - March 2020",
+      grade: "89.60%",
+      desc: "I completed my class 10 education from Sangita High School, Nagpur, under the state board, where I studied all the subjects that provide basics.",
+      degree: "X, State Board",
     },
   ];
   
